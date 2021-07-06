@@ -1,0 +1,29 @@
+{
+  "name": "ISM_project",
+  "version": "1.0.0",
+  "description": "File Encryption for Cloud Storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Subho",
+  "license": "ISC",
+  "dependencies": {
+    "add": "^2.0.6",
+    "ecc-crypto-helper": "^1.6.1",
+    "eccrypto": "^1.1.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "file-encryptor": "^0.1.1",
+    "moment": "^2.29.1",
+    "node-rsa": "^1.1.1",
+    "split-file": "^2.2.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

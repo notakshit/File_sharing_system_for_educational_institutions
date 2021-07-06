@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Download</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	
+	<body>
+		<div class="card mx-auto" style="width: 30rem; margin: 10rem">
+			<h2 class="text-center">File Sharing Portal</h2>
+			<div class="card-body mb-3">
+				<form  method="post" action="/download">
+					<label for="fileId" class="form-label">File Name: </label>
+					<input class="form-control" type="text" id="fileId" name="fileId" placeholder="Enter file Name" aria-label="message">
+					<br>
+					<div class="col-auto">
+						<button class="btn btn-primary mb-3" type="submit">Download</button>  
+					</div>  
+				</form>
+			</div>
+		</div>
+	</body>
+
+</html>
